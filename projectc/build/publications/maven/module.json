@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "netflix.nebula",
+    "module": "clientb",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4",
+      "buildId": "cjgt5kbtlnachmdmmbv7nn4dzm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.usage": "java-api-jars"
+      },
+      "dependencies": [
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientb-1.0.0.jar",
+          "url": "clientb-1.0.0.jar",
+          "size": 261,
+          "sha1": "811eba0bfe45bf11ea08d6700b67b013e0101cef",
+          "md5": "32e56057b6975cc163548d873d58df3c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.usage": "java-runtime-jars"
+      },
+      "dependencies": [
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "clienta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clientb-1.0.0.jar",
+          "url": "clientb-1.0.0.jar",
+          "size": 261,
+          "sha1": "811eba0bfe45bf11ea08d6700b67b013e0101cef",
+          "md5": "32e56057b6975cc163548d873d58df3c"
+        }
+      ]
+    }
+  ]
+}

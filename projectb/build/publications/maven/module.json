@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.0",
+  "component": {
+    "group": "netflix.nebula",
+    "module": "projectb",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.4",
+      "buildId": "3aaycotocng5lepitizpguqvjq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.usage": "java-api-jars"
+      },
+      "dependencies": [
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "projecta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "projecta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "projectc",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "projectb-1.0.0.jar",
+          "url": "projectb-1.0.0.jar",
+          "size": 261,
+          "sha1": "a095f903fd60235fca4e872899a5c9066e375d1",
+          "md5": "58aa6847aaea9b4c38793393645c79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.usage": "java-runtime-jars"
+      },
+      "dependencies": [
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "projecta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "netflix.nebula",
+          "module": "projecta",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "netflix.nebula",
+          "module": "projectc",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "projectb-1.0.0.jar",
+          "url": "projectb-1.0.0.jar",
+          "size": 261,
+          "sha1": "a095f903fd60235fca4e872899a5c9066e375d1",
+          "md5": "58aa6847aaea9b4c38793393645c79"
+        }
+      ]
+    }
+  ]
+}
